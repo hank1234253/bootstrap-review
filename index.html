@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="container bg-danger text-white pt-5">
+        <h1>My First Bootstrap Page</h1>
+        <p>This part is inside a .container class.</p>
+        <p>The .container class provides a responsive fixed width container.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-8">
+                <h1>h1</h1>
+                <div class="h1">h1</div>
+                <div class="h2">h2</div>
+                <div class="display-1">display-1</div>
+                <div class="display-2">display-2</div>
+                <div class="display-3">display-3</div>
+                <div class="display-6">display-6</div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-2 h1">small <small>small</small><mark>mark</mark> </div>
+            <div class="col-6 col-sm-4 col-md-2"><abbr title="World Health Organization">WHO</abbr></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, tempora recusandae sapiente
+                        temporibus accusamus debitis ipsa nostrum eligendi molestiae, velit quisquam saepe in placeat
+                        minus, omnis dolor consequuntur natus reiciendis!</p>
+                    <footer class="blockquote-footer">From Lorem</footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <dt>dt</dt>
+                <dd>dd</dd>
+                <code>code</code>
+                <kbd>kbd</kbd>
+                <pre>
+                    pre
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Commodi aliquam eaque maiores c
+ orrupti assumenda fugiat atque blanditiis quia incidunt,
+                     sit sed, ex error quibusdam natus reprehenderit quis deserunt consequatur id.
+                </pre>
+                <p class="text-muted">muted</p>
+                <p class="text-primary">primary</p>
+                <p class="text-success">success</p>
+                <p class="text-info">info</p>
+                <p class="text-warning">warning</p>
+                <p class="text-dark">dark</p>
+                <p class="text-body">body</p>
+                <p class="text-danger">danger</p>
+                <p class="text-secondary">secondary</p>
+                <div class="bg-dark">
+                    <p class="text-light">light</p>
+                    <p class="text-white">white</p>
+                </div>
+            </div>
+        </div>
+        <div class="row table-responsive">
+            <table class="table   table-hover table-bordered ">
+                <thead>
+                    <tr class="table-primary">
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>aaa@bbb.ccc</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>aaa@bbb.ccc</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>aaa@bbb.ccc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col">
+
+                <img class="rounded float-first img-fluid" src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="col">
+
+                <img class="rounded-circle mx-auto d-block img-fluid " src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="col">
+
+                <img class="img-thumbnail float-end" src="https://picsum.photos/200/300" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dissmissable">
+                    Success A
+                    <a href="#" class="alert-link">index</a>
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+                </div>
+                <div class="alert alert-danger alert-dissmissable">
+                    Success B
+                    <a href="#" class="alert-link">index</a>
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn">Basic</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <div class="col-12 mt-3">
+                <a href="#" class="btn btn-success">Link Button</a>
+                <button type="button" class="btn btn-success">Button</button>
+                <input type="button" class="btn btn-success" value="Input Button">
+                <input type="submit" class="btn btn-success" value="Submit Button">
+                <input type="reset" class="btn btn-success" value="Reset Button">
+                <button type="button" class="btn btn-primary">
+                    <span class="spinner-border spinner-border-sm"></span>
+                </button>
+            </div>
+
+            <div class="col-12 mt-3 d-grid">
+                <button type="button" class="btn btn-primary btn-block" disabled>full</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success">Button1</button>
+                    <button type="button" class="btn btn-success">Button2</button>
+                    <button type="button" class="btn btn-success">Button3</button>
+                    <button type="button" class="btn btn-success">Button4</button>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Button1</button>
+                    <button type="button" class="btn btn-primary">Button2</button>
+                    <button type="button" class="btn btn-primary">Button3</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle"
+                        data-bs-toggle="dropdown">Button4</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">a</a>
+                        <a href="#" class="dropdown-item">b</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-success">Button1</button>
+                    <button type="button" class="btn btn-success">Button2</button>
+                    <button type="button" class="btn btn-success">Button3</button>
+                    <button type="button" class="btn btn-success">Button4</button>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn-group btn-group-sm">
+                    <button type="button" class="btn btn-success">Button1</button>
+                    <button type="button" class="btn btn-success">Button2</button>
+                    <button type="button" class="btn btn-success">Button3</button>
+                    <button type="button" class="btn btn-success">Button4</button>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="btn-group-vertical btn-group-lg mt-5">
+                    <button type="button" class="btn btn-success">Button1</button>
+                    <button type="button" class="btn btn-success">Button2</button>
+                    <button type="button" class="btn btn-success">Button3</button>
+                    <button type="button" class="btn btn-success">Button4</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1>AAAAAAAAAAAAA <span class="badge bg-danger rounded-pill">New</span></h1>
+                <button type="button" class="btn btn-primary">訊息 <span class="badge bg-danger ">99</span></button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:70%">70%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="list-group list-group-numbered list-group-horizontal">
+                    <a href="#" class="list-group-item list-group-item-action ">First item <span
+                            class="badge bg-primary rounded-pill">12</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Second item</a>
+                    <a href="#" class="list-group-item list-group-item-action">Third item</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://picsum.photos/200/300" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">Some example text.</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col bg-primary mt-5 p-5">
+                <footer class="text-light fs-1">
+                    footer
+                </footer>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
